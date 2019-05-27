@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C9BF8AB229BE2C50006A016 /* BAURLSessionProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9BF8A1229BE2C40006A016 /* BAURLSessionProtocol.m */; };
+		2C9BF8AC229BE2C50006A016 /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9BF8A2229BE2C40006A016 /* UIImage+WebP.m */; };
+		2C9BF8AD229BE2C50006A016 /* NSURLProtocol+BAWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9BF8A3229BE2C40006A016 /* NSURLProtocol+BAWebView.m */; };
+		2C9BF8AE229BE2C50006A016 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9BF8A9229BE2C40006A016 /* WebP.framework */; };
+		2C9BF8AF229BE2C50006A016 /* WebP.sh in Resources */ = {isa = PBXBuildFile; fileRef = 2C9BF8AA229BE2C40006A016 /* WebP.sh */; };
 		2CCF31DE229BD81000120428 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF31DD229BD81000120428 /* AppDelegate.m */; };
 		2CCF31E1229BD81000120428 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF31E0229BD81000120428 /* ViewController.m */; };
 		2CCF31E4229BD81000120428 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CCF31E2229BD81000120428 /* Main.storyboard */; };
 		2CCF31E6229BD81200120428 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CCF31E5229BD81200120428 /* Assets.xcassets */; };
 		2CCF31E9229BD81200120428 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CCF31E7229BD81200120428 /* LaunchScreen.storyboard */; };
 		2CCF31EC229BD81200120428 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF31EB229BD81200120428 /* main.m */; };
+		45D72498A79308A59DB6950B /* libPods-webView-webp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0EF4CAE3CE2B0F56021C635 /* libPods-webView-webp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C9BF8A1229BE2C40006A016 /* BAURLSessionProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAURLSessionProtocol.m; sourceTree = "<group>"; };
+		2C9BF8A2229BE2C40006A016 /* UIImage+WebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WebP.m"; sourceTree = "<group>"; };
+		2C9BF8A3229BE2C40006A016 /* NSURLProtocol+BAWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLProtocol+BAWebView.m"; sourceTree = "<group>"; };
+		2C9BF8A4229BE2C40006A016 /* UIImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WebP.h"; sourceTree = "<group>"; };
+		2C9BF8A5229BE2C40006A016 /* BAURLSessionProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAURLSessionProtocol.h; sourceTree = "<group>"; };
+		2C9BF8A6229BE2C40006A016 /* BAWKWebView_WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAWKWebView_WebP.h; sourceTree = "<group>"; };
+		2C9BF8A7229BE2C40006A016 /* NSURLProtocol+BAWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLProtocol+BAWebView.h"; sourceTree = "<group>"; };
+		2C9BF8A9229BE2C40006A016 /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebP.framework; sourceTree = "<group>"; };
+		2C9BF8AA229BE2C40006A016 /* WebP.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = WebP.sh; sourceTree = "<group>"; };
 		2CCF31D9229BD81000120428 /* webView-webp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "webView-webp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CCF31DC229BD81000120428 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2CCF31DD229BD81000120428 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +41,9 @@
 		2CCF31E8229BD81200120428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CCF31EA229BD81200120428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CCF31EB229BD81200120428 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41F2E940CE2D1F7446DA50E7 /* Pods-webView-webp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webView-webp.debug.xcconfig"; path = "Target Support Files/Pods-webView-webp/Pods-webView-webp.debug.xcconfig"; sourceTree = "<group>"; };
+		C28EA12102C5C8678FC5426D /* Pods-webView-webp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webView-webp.release.xcconfig"; path = "Target Support Files/Pods-webView-webp/Pods-webView-webp.release.xcconfig"; sourceTree = "<group>"; };
+		F0EF4CAE3CE2B0F56021C635 /* libPods-webView-webp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-webView-webp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +51,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C9BF8AE229BE2C50006A016 /* WebP.framework in Frameworks */,
+				45D72498A79308A59DB6950B /* libPods-webView-webp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C9BF8A0229BE2C40006A016 /* YJWKWebView-WebP */ = {
+			isa = PBXGroup;
+			children = (
+				2C9BF8A8229BE2C40006A016 /* Vendor */,
+				2C9BF8A5229BE2C40006A016 /* BAURLSessionProtocol.h */,
+				2C9BF8A1229BE2C40006A016 /* BAURLSessionProtocol.m */,
+				2C9BF8A6229BE2C40006A016 /* BAWKWebView_WebP.h */,
+				2C9BF8A7229BE2C40006A016 /* NSURLProtocol+BAWebView.h */,
+				2C9BF8A3229BE2C40006A016 /* NSURLProtocol+BAWebView.m */,
+				2C9BF8A4229BE2C40006A016 /* UIImage+WebP.h */,
+				2C9BF8A2229BE2C40006A016 /* UIImage+WebP.m */,
+			);
+			path = "YJWKWebView-WebP";
+			sourceTree = "<group>";
+		};
+		2C9BF8A8229BE2C40006A016 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				2C9BF8A9229BE2C40006A016 /* WebP.framework */,
+				2C9BF8AA229BE2C40006A016 /* WebP.sh */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
 		2CCF31D0229BD81000120428 = {
 			isa = PBXGroup;
 			children = (
 				2CCF31DB229BD81000120428 /* webView-webp */,
 				2CCF31DA229BD81000120428 /* Products */,
+				BDE21B9AC63FCA835947D3D1 /* Pods */,
+				E21F1FE870E462F76EE0E826 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +104,7 @@
 		2CCF31DB229BD81000120428 /* webView-webp */ = {
 			isa = PBXGroup;
 			children = (
+				2C9BF8A0229BE2C40006A016 /* YJWKWebView-WebP */,
 				2CCF31DC229BD81000120428 /* AppDelegate.h */,
 				2CCF31DD229BD81000120428 /* AppDelegate.m */,
 				2CCF31DF229BD81000120428 /* ViewController.h */,
@@ -71,6 +118,23 @@
 			path = "webView-webp";
 			sourceTree = "<group>";
 		};
+		BDE21B9AC63FCA835947D3D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41F2E940CE2D1F7446DA50E7 /* Pods-webView-webp.debug.xcconfig */,
+				C28EA12102C5C8678FC5426D /* Pods-webView-webp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E21F1FE870E462F76EE0E826 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0EF4CAE3CE2B0F56021C635 /* libPods-webView-webp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,6 +142,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CCF31EF229BD81200120428 /* Build configuration list for PBXNativeTarget "webView-webp" */;
 			buildPhases = (
+				22FB4DFEBD79B9DF52F29A5A /* [CP] Check Pods Manifest.lock */,
 				2CCF31D5229BD81000120428 /* Sources */,
 				2CCF31D6229BD81000120428 /* Frameworks */,
 				2CCF31D7229BD81000120428 /* Resources */,
@@ -130,11 +195,37 @@
 			files = (
 				2CCF31E9229BD81200120428 /* LaunchScreen.storyboard in Resources */,
 				2CCF31E6229BD81200120428 /* Assets.xcassets in Resources */,
+				2C9BF8AF229BE2C50006A016 /* WebP.sh in Resources */,
 				2CCF31E4229BD81000120428 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22FB4DFEBD79B9DF52F29A5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-webView-webp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2CCF31D5229BD81000120428 /* Sources */ = {
@@ -142,6 +233,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CCF31E1229BD81000120428 /* ViewController.m in Sources */,
+				2C9BF8AB229BE2C50006A016 /* BAURLSessionProtocol.m in Sources */,
+				2C9BF8AC229BE2C50006A016 /* UIImage+WebP.m in Sources */,
+				2C9BF8AD229BE2C50006A016 /* NSURLProtocol+BAWebView.m in Sources */,
 				2CCF31EC229BD81200120428 /* main.m in Sources */,
 				2CCF31DE229BD81000120428 /* AppDelegate.m in Sources */,
 			);
@@ -283,9 +377,19 @@
 		};
 		2CCF31F0229BD81200120428 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41F2E940CE2D1F7446DA50E7 /* Pods-webView-webp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/webView-webp/YJWKWebView-WebP/Vendor",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"SD_WEBP=1",
+				);
 				INFOPLIST_FILE = "webView-webp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -299,9 +403,19 @@
 		};
 		2CCF31F1229BD81200120428 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C28EA12102C5C8678FC5426D /* Pods-webView-webp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/webView-webp/YJWKWebView-WebP/Vendor",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"SD_WEBP=1",
+				);
 				INFOPLIST_FILE = "webView-webp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
